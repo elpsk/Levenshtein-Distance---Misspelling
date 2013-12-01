@@ -14,6 +14,8 @@ Simple implementation of Levensthein Distance algorithm in ObjectiveC.
 
   OUT: 2.00
 ```
+Useful for misspelling words.
+
 
 
 It's an NSString category:
