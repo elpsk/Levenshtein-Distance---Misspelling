@@ -21,6 +21,10 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+	
+	//
+	// example cases
+	//
 
   NSString *Astr = @"Milano (MI) - Via Francesco Ardissione";
   NSString *Bstr = @"Milano, Via Francesco Ardissione";
