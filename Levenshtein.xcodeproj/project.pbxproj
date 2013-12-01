@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4550C6150639B900CDB737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4550C5150639B900CDB737 /* UIKit.framework */; };
+		AB4550C8150639B900CDB737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4550C7150639B900CDB737 /* Foundation.framework */; };
+		AB4550CA150639B900CDB737 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4550C9150639B900CDB737 /* CoreGraphics.framework */; };
+		AB4550D0150639B900CDB737 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4550CE150639B900CDB737 /* InfoPlist.strings */; };
+		AB4550D2150639B900CDB737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4550D1150639B900CDB737 /* main.m */; };
+		AB4550D6150639B900CDB737 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4550D5150639B900CDB737 /* APAppDelegate.m */; };
+		AB4550D9150639B900CDB737 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4550D8150639B900CDB737 /* APViewController.m */; };
+		AB4550DC150639B900CDB737 /* APViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4550DA150639B900CDB737 /* APViewController.xib */; };
+		AB4550E715063B5300CDB737 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4550E615063B5300CDB737 /* NSString+Levenshtein.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB4550C1150639B900CDB737 /* Levenshtein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Levenshtein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4550C5150639B900CDB737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB4550C7150639B900CDB737 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB4550C9150639B900CDB737 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB4550CD150639B900CDB737 /* Levenshtein-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Levenshtein-Info.plist"; sourceTree = "<group>"; };
+		AB4550CF150639B900CDB737 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB4550D1150639B900CDB737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB4550D3150639B900CDB737 /* Levenshtein-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Levenshtein-Prefix.pch"; sourceTree = "<group>"; };
+		AB4550D4150639B900CDB737 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		AB4550D5150639B900CDB737 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		AB4550D7150639B900CDB737 /* APViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		AB4550D8150639B900CDB737 /* APViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
+		AB4550DB150639B900CDB737 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APViewController.xib; sourceTree = "<group>"; };
+		AB4550E515063B5300CDB737 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		AB4550E615063B5300CDB737 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Levenshtein.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4550BE150639B900CDB737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4550C6150639B900CDB737 /* UIKit.framework in Frameworks */,
+				AB4550C8150639B900CDB737 /* Foundation.framework in Frameworks */,
+				AB4550CA150639B900CDB737 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB4550B6150639B800CDB737 = {
+			isa = PBXGroup;
+			children = (
+				AB4550CB150639B900CDB737 /* Levenshtein */,
+				AB4550C4150639B900CDB737 /* Frameworks */,
+				AB4550C2150639B900CDB737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB4550C2150639B900CDB737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4550C1150639B900CDB737 /* Levenshtein.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB4550C4150639B900CDB737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB4550C5150639B900CDB737 /* UIKit.framework */,
+				AB4550C7150639B900CDB737 /* Foundation.framework */,
+				AB4550C9150639B900CDB737 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB4550CB150639B900CDB737 /* Levenshtein */ = {
+			isa = PBXGroup;
+			children = (
+				AB4550D4150639B900CDB737 /* APAppDelegate.h */,
+				AB4550D5150639B900CDB737 /* APAppDelegate.m */,
+				AB4550D7150639B900CDB737 /* APViewController.h */,
+				AB4550D8150639B900CDB737 /* APViewController.m */,
+				AB4550DA150639B900CDB737 /* APViewController.xib */,
+				AB4550CC150639B900CDB737 /* Supporting Files */,
+				AB4550E515063B5300CDB737 /* NSString+Levenshtein.h */,
+				AB4550E615063B5300CDB737 /* NSString+Levenshtein.m */,
+			);
+			path = Levenshtein;
+			sourceTree = "<group>";
+		};
+		AB4550CC150639B900CDB737 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB4550CD150639B900CDB737 /* Levenshtein-Info.plist */,
+				AB4550CE150639B900CDB737 /* InfoPlist.strings */,
+				AB4550D1150639B900CDB737 /* main.m */,
+				AB4550D3150639B900CDB737 /* Levenshtein-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4550C0150639B900CDB737 /* Levenshtein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4550DF150639B900CDB737 /* Build configuration list for PBXNativeTarget "Levenshtein" */;
+			buildPhases = (
+				AB4550BD150639B900CDB737 /* Sources */,
+				AB4550BE150639B900CDB737 /* Frameworks */,
+				AB4550BF150639B900CDB737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Levenshtein;
+			productName = Levenshtein;
+			productReference = AB4550C1150639B900CDB737 /* Levenshtein.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4550B8150639B800CDB737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AB4550BB150639B800CDB737 /* Build configuration list for PBXProject "Levenshtein" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB4550B6150639B800CDB737;
+			productRefGroup = AB4550C2150639B900CDB737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4550C0150639B900CDB737 /* Levenshtein */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4550BF150639B900CDB737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4550D0150639B900CDB737 /* InfoPlist.strings in Resources */,
+				AB4550DC150639B900CDB737 /* APViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4550BD150639B900CDB737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4550D2150639B900CDB737 /* main.m in Sources */,
+				AB4550D6150639B900CDB737 /* APAppDelegate.m in Sources */,
+				AB4550D9150639B900CDB737 /* APViewController.m in Sources */,
+				AB4550E715063B5300CDB737 /* NSString+Levenshtein.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB4550CE150639B900CDB737 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4550CF150639B900CDB737 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB4550DA150639B900CDB737 /* APViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4550DB150639B900CDB737 /* en */,
+			);
+			name = APViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB4550DD150639B900CDB737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB4550DE150639B900CDB737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4550E0150639B900CDB737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levenshtein/Levenshtein-Prefix.pch";
+				INFOPLIST_FILE = "Levenshtein/Levenshtein-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB4550E1150639B900CDB737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levenshtein/Levenshtein-Prefix.pch";
+				INFOPLIST_FILE = "Levenshtein/Levenshtein-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4550BB150639B800CDB737 /* Build configuration list for PBXProject "Levenshtein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4550DD150639B900CDB737 /* Debug */,
+				AB4550DE150639B900CDB737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4550DF150639B900CDB737 /* Build configuration list for PBXNativeTarget "Levenshtein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4550E0150639B900CDB737 /* Debug */,
+				AB4550E1150639B900CDB737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4550B8150639B800CDB737 /* Project object */;
+}
